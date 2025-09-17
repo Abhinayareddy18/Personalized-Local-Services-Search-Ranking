@@ -49,23 +49,22 @@ CTR/CVR Models → Prediction Pipeline → Conversion Optimization
 
 ## 🏗 Project Structure
 
-\`\`\`
-app/                          # Next.js App Router
-  page.tsx                 # Main search interface
-  layout.tsx               # Root layout with theme provider
-  globals.css              # Global styles and design tokens
-components                 # React components
-      search-header.tsx        # Search interface and branding
-      service-card.tsx         # Service display with ML predictions
-      personalized-dashboard.tsx # User preferences and activity
-      ml-insights.tsx          # Model performance metrics
-      filter-sidebar.tsx       # Advanced filtering controls
-      ui/                      # Reusable UI components
-lib/                         # Core utilities and data
-      mock-data.ts            # Sample data with ML scores
-      utils.ts                # Helper functions
-hooks/                       # Custom React hooks
-\`\`\`
+my-project/
+  app/
+    page.tsx
+    layout.tsx
+    globals.css
+  components/
+    search-header.tsx
+    service-card.tsx
+    personalized-dashboard.tsx
+    ml-insights.tsx
+    filter-sidebar.tsx
+    ui/
+  lib/
+    mock-data.ts
+    utils.ts
+  hooks/
 
 ## 🚀 Getting Started
 
